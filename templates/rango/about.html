@@ -1,0 +1,13 @@
+
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+{% block title %} About Page {% endblock %}
+{% block content %}   
+
+        <h1>About Rango</h1>
+        <p>This is about rango Page</p>
+        <img src="{% static "/image/mine.jpg" %}"/>
+	<a href="/rango/">back to home page</a>
+{% endblock %}
